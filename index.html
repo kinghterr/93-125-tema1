@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<title>Фоновые цвета и изображения</title>
+<style>
+  /* Задание 1: синий фон с белым текстом */
+  #blue-block {
+    width: 300px;
+    height: 100px;
+    color: white;
+    background-color: blue;
+    margin-bottom: 20px;
+  }
+
+  /* Задание 2: зеленый фон с черным текстом */
+  #green-block {
+    width: 300px;
+    height: 100px;
+    color: black;
+    background-color: green;
+    margin-bottom: 20px;
+  }
+
+  /* Задание 3: фон с картинкой */
+  body {
+    background-image: url('pattern.png'); /* замените pattern.png на вашу картинку */
+    background-repeat: repeat; /* замостить окно браузера */
+    background-position: top left; /* позиция изображения */
+    background-size: auto; /* размер изображения */
+    background-attachment: scroll; /* фон движется при прокрутке */
+  }
+
+</style>
+</head>
+<body>
+  <div id="blue-block">
+    Lorem ipsum dolor sit amet.
+  </div>
+
+  <div id="green-block">
+    Lorem ipsum dolor sit amet.
+  </div>
+
+  <p></p>
+</body>
+</html>
